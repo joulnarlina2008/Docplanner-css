@@ -1,0 +1,259 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0;
+
+}
+header nav img{
+    width: 25%;
+}
+
+header nav div ul{
+    display: flex;
+
+}
+
+li{
+    list-style-type:none ;
+    color: rgb(178, 178, 178);
+    cursor: pointer;
+    margin: 30px; ;
+    display: flex;
+    justify-content: flex-start;
+}
+
+li:hover{
+    color: #00b39b;
+}
+
+nav{
+    display: flex;
+    align-self:center;
+    justify-content:space-around;
+    box-shadow: 4px 3px 1px  rgb(173, 173, 173);
+    padding: 1.2%;
+    position:fixe;
+}
+.icon{
+    width: 3%;
+    display:flex;
+    justify-content:center;
+    margin: 5%;
+    margin-top: 3%;
+}
+
+h6{
+    text-align: center;
+    margin-top: 3%;
+    font-weight:lighter ;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: start ;
+    margin-top: 1%;
+    font-weight:lighter ;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: start;
+    margin-top: 1%;
+    font-weight:lighter ;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    text-align: start;
+    margin-top: 1%;
+    font-weight:lighter;
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    color: black;
+    text-align: start;
+    margin-top: 1%;
+    font-weight:lighter ;
+    display: flex;
+    flex-direction:column;
+}
+.MyPara{
+    color:#747474;
+    width: 35%;
+    font-size: 17.5px;
+    letter-spacing: 1.5px;  
+ 
+}
+.section1{
+    background-color:#66ebd9;
+    border-radius: 5%;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.section2{
+    background-color:rgba(15, 15, 225, 0.404);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}  
+.section3{
+    background-color:rgb(1, 1, 36);
+    border-radius: 0.5%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.articles{
+    width: 15%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    align-items: flex-start;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.MyPara2{
+    color:#747474;
+    width: 30%;  
+    display: flex;
+    align-self:space-around;
+    margin: auto;
+    margin-top: 2%;
+}
+.MyPara3{
+    color: #00b39b;
+    width: 5%;
+    display: flex;
+    align-self:flex-end;
+    margin: auto;
+    margin-top: 2%;
+}
+.background{
+    background-color: aqua;
+    width: 100%;
+    padding-right:100%;
+    align-items: flex-end;
+
+}
+button{
+    background-color: blue;
+    color: white;
+    border:none;
+    outline: none;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button-contry{
+    background-color: #00b39b;
+    color: white;
+}
+
+button:hover{
+    background-color: #1051a6;
+}
+
+.country-card{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 15%;
+    padding-top: 1%;
+    padding-bottom:1% ;
+}
+.card{
+    border-radius: 8px;
+}
+
+.card:hover{
+    box-shadow: 0 12px 15px rgb(112,112,112) ;
+}
+.country-container{
+    width: 2%;
+    margin-top: 3%;
+
+    
+
+}
+.warsaw{
+    width: 35% ;
+    cursor: pointer;
+    width: 25.5%;
+}
+.barcelona{
+    width: 35% ;
+    cursor: pointer;
+    width: 55%;  
+}
+.munich{
+    width: 35%;
+    cursor: pointer;
+    width: 55.5%;
+}
+.istanbul{
+    width: 30%;
+    cursor: pointer;
+    width: 25%;
+}
+.Rome{
+    width: 35% ;
+    cursor: pointer;
+    width: 55.5%;
+}
+.Bologna{
+    width: 35% ;
+    cursor: pointer;
+    width: 25%;
+}
+.Curitiba{
+    width: 30% ;
+    cursor: pointer;
+    width: 22.5%;
+}
+.rio-janeiro{
+    width: 30% ;
+    cursor: pointer;
+    width: 25%;
+}
+.mexico-city{
+    width: 30% ;
+    cursor: pointer;
+    width: 25%;
+}
+.Bogota{
+    width: 30% ;
+    cursor: pointer;
+    width: 25%;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3%;
+}
+.footer-text{
+    text-align: center;
+    flex-direction: column;
+    color: rgb(63, 63, 62);
+    margin-top: 3%;
+    font-weight: lighter;
+}
